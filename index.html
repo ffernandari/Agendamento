@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> Agendamento </title>
+</head>
+<body>
+
+    <main class="container">
+        <div class="icone">
+            <img src="">
+
+
+        </div>
+
+        <h1> Agendamento de publicidade </h1>
+        <p> Preencha o formulário para fazer publicidade com Jorge Vercillo. </p>
+
+        <form id="formulario">
+            
+            <!-- Campo nome-->
+
+            <label for="nome"> Nome completo: </label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+            <!-- Campo email-->
+
+            <label for="email"> Digite seu email: </label>
+            <input type="email" id="email" placeholder="Digite o seu email" required>
+
+            <!-- Campo telefone-->
+
+            <label for="telefone"> Telefone: </label>
+            <input type="tel" id="telefone" placeholder="(11) 9999-9999" required>
+
+            <!-- Campo de cargos-->
+
+            <label for="publicidade"> Tipos de publicidade: </label>
+            <select id="publicidade" required> 
+                <option value=""> Selecione uma opção </option>
+                <option value="Composições"> Composições </option>
+                <option value="Storys"> Storys </option>
+                <option value="Feed"> Feed </option>
+                <option value="Reels"> Reels </option>
+            </select>
+
+            <!-- Campo de observações -->
+
+            <label for="mensagem"> Observações: </label>
+            <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+            <button type="submit"> Enviar solicitação </button>
+
+
+
+
+        </form>
+
+    </main>
+
+    <script src="./main.js">
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
